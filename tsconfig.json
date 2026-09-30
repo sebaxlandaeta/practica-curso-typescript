@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Entorno y Sintaxis */
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ESNext", "DOM"],
+
+    /* Modo Solo Verificación */
+    "noEmit": true,
+
+    /* Opciones de Tipado y Calidad */
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true
+  },
+  "include": ["**/*"]
+}

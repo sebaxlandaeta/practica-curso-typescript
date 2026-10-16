@@ -48,4 +48,4 @@ function actualizarUsuario(id: number, cambios: MiOpcional<Usuario>): void {
   console.log(`Usuario ${id} actualizado:`, cambios);
 }
 
-actualizarUsuario(1, { nombre: "Carlos", activo: true });
+actualizarUsuario(1, { nombre: "Carlos", activo: true }); 
